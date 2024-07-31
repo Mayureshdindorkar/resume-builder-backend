@@ -27,7 +27,7 @@ import com.resume_builder_backend.resume_builder.service.UserService;
 
 // We can also assign @RequestMapping("uri") for controller class
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // because React app is running on port 3000 // To avoid CORS error // Just writing @CrossOrigin will make the apis public to all users
+//@CrossOrigin(origins = "http://localhost:3000") // because React app is running on port 3000 // To avoid CORS error // Just writing @CrossOrigin will make the apis public to all users
 public class UserController {
 
 	Logger logger = LoggerFactory.getLogger(UserController.class);

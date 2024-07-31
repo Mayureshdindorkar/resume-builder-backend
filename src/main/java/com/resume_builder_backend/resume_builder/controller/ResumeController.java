@@ -24,7 +24,7 @@ import com.resume_builder_backend.resume_builder.service.ResumService;
 
 @RestController
 @RequestMapping("/create-resume")
-@CrossOrigin(origins = "http://localhost:3000")
+//@CrossOrigin(origins = "http://localhost:3000")
 public class ResumeController {
 
 	Logger logger = LoggerFactory.getLogger(ResumeController.class);
